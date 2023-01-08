@@ -58,6 +58,7 @@ class SecondScreen extends StatelessWidget{
           child:Text("Word:$word,Value:$val,- Go Back"),//go back button
           onPressed: (){
             //you need to put like widget.word on stateful widgets.
+            //这条returntext会在返回时由"backdata"打印
             Navigator.pop(context,"returntext");
           },
         )
